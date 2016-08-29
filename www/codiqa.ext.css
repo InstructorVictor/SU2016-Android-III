@@ -1,0 +1,115 @@
+/* Activates the use of a custom font. From fontsquirrel.com */
+@font-face {
+    font-family: 'bungee_regularregular';
+    src: url('bungee-regular-webfont.woff2') format('woff2'),
+         url('bungee-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    -webkit-touch-callout: none;                /* Prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* Prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* Prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #abcdef;					/* Basic app background-color defined. Should coordinate with the one in config.xml */
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;	/* Sets basic Font Family */
+    font-size: 105%;
+}
+
+.ui-header .ui-title {						/* Style the Header Title */
+	font-family: 'bungee_regularregular';	/* Set the Font Family */
+	font-size: 125%;						/* Increase the Font Size */
+	margin: 0 20%;							/* Remove some of the extra paddingin the Header */
+}
+
+.ui-footer .ui-title {				/* style the Footer Title */
+	font-family: 'bungee_regularregular';
+}
+
+
+h2 {									/* Style the <h2> tags */
+	font-family: 'bungee_regularregular';
+}
+
+.ui-dialog-contain>.ui-content {		/* Style the "ui-content" class if it's a direct descendant of the "ui-dialog-conain" class */
+	background-color: white;
+	
+}
+
+.ui-dialog-contain>.ui-content h2 {	/* Style the <h2> tag in the "ui-content" class, if it's a direct descendant of the "ui-dialog-contain" class */
+	margin-top: 5%;					/* Tighten up some of the Margins */
+	margin-bottom: 2%;
+}
+
+.ui-icon-myicon:after {				/* Set up a custom jQuery Mobile icon */
+	background-image: url("images/vmcampos-instagram_2529-72.jpg");
+	background-size: 100% 100%;
+}
+
+.ui-nosvg .ui-icon-myicon:after {	/* Set up a custom jQuery Mobile icon, the "nosvg" version */
+	background-image: url("images/vmcampos-instagram_2529-72.jpg");
+	background-size: 100% 100%;
+}
+
+.divImgFull {					/* Style a <div> that holds an <img> */
+	width: 100%; 				/* Make the <div> full-width */
+	position: relative; 		/* Position relative to the parent container */
+	background-color: white;	/* Background color set to white */
+	border: 5px solid white;	/* Add a 5-pixel size border, solid style, and white */
+	line-height: 0;				/* Zero out the Line Height to tighten the space */
+	border-radius: 25px;		/* Add a 25-pixel roundness to the <div> */
+	overflow: hidden;			/* Hide any content that extends beyond the <div> */
+}
+
+.imgFull { width: 100%; }			/* Make sure the <img> is 100% of the size of its container */
+
+#classTable {						/* Style the table where the classes are shown */ 
+	width: 100%;					/* Stretch Table to its parent container Width */
+	background-color: whitesmoke;	/* Cool color behind the Table */
+	margin: auto;					/* Helps center the table */
+	table-layout: fixed;			/* Faster Table layout */
+	word-wrap: break-word;			/* Break long words in a Cell */
+}
+
+#classTable th {						/* Style the Table Headers */
+	background-color: purple;
+	color: white;
+}
+
+#classTable tr:nth-of-type(odd) {		 /* Style the Odd-numbered rows of the Table */
+	background-color: rgb(0,50,200);
+	color: white;
+}
+
+#classTable tr:nth-of-type(even) {				/* Style the Even-numbered rows of the Table */
+	background-color: rgba(0,50,200,0.5);	/* Use RGBa to select a varient color from the nth-of-type(odd) pseudo-selector */
+	color:  white;
+}
+
+#classTable .editPencil {	/* Style the editPencil column of the Table (assumes that column has the "editPencil" class */ 
+	width: 10%;				/* Use a minimum amount of space for this column */
+}
+
+.divTwoCol {				/* Set up a <div> to contain two columns */
+	width: 95%;			/* Set the <div> to almost-full-width */
+	margin: auto;		/* Align the <div> to the center of the parent */
+}
+
+.divLeftCol {			/* Set up the "left column" of the layout */
+	width: 20%;
+	float: left;
+}
+
+.divRightCol {			/* Set up the "right column" of the layout */
+	width: 75%;
+	float: left;
+	padding-left: 5%;
+}
+
+/*
+	Author:		Victor Campos <vcampos@sdccd.edu>
+	Project:	mySDCE
+	Version:	1.0.20160808
+	Date:		2016-08-08
+	Description:The unoffical San Diego Continuing Education app.
+*/

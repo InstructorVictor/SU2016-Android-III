@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.jones.template"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.campossss.mysdce"
+        }
+    },
+    "dependent_plugins": {}
+}
